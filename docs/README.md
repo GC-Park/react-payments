@@ -5,6 +5,13 @@
 <p align="middle">React 모바일 페이먼츠 애플리케이션</p>
 </p>
 
+![GIFMaker_me (1)](https://github.com/woowacourse/prolog/assets/72205402/e2b58967-983f-48c8-9875-7d7d0bf82971)
+
+## 🔗 링크
+[홈페이지 링크](https://thriving-malasada-009498.netlify.app/#/)<br>
+[스토리북 링크](https://644b673fa2e9bbb9cb5a211e-lrslwmuvsi.chromatic.com/?path=/story/bank--%EC%9A%B0%EB%A6%AC%EC%B9%B4%EB%93%9C)<br>
+[NPM패키지 배포 링크](https://www.npmjs.com/package/react-modal-patrick)
+
 ## 🚀 Getting Started
 
 > `Component-Driven Development` 에 따라 UI를 구성하고 재사용 가능한 `Component`를 작성합니다.
