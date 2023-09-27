@@ -8,6 +8,7 @@ import { CardType } from '../types';
 import uuid from 'react-uuid';
 import { useModalContext } from 'react-modal-patrick';
 import { LOCALSTORAGE_KEY } from '../constants';
+import RouteChangeTracker from '../RouteChangeTracker';
 
 const MyCard = () => {
   const cards = getLocalStorage(LOCALSTORAGE_KEY.CARD);
@@ -20,6 +21,8 @@ const MyCard = () => {
 
     navigate('/AddCard');
   };
+
+  RouteChangeTracker();
 
   return (
     <Page>
