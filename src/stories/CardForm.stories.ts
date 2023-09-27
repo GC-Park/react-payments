@@ -7,7 +7,7 @@ const meta = {
   component: CardInputForm,
   tags: ['autodocs'],
 };
-  
+
 export default meta;
 type Story = StoryObj<typeof meta>;
 

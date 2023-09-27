@@ -4,6 +4,7 @@ import AddCard from './pages/AddCard';
 import NameCard from './pages/NameCard';
 import { ModalContextProvider } from 'react-modal-patrick';
 import NotFound from './pages/NotFound';
+import RouteChangeTracker from './RouteChangeTracker';
 
 const router = createHashRouter([
   {
@@ -25,6 +26,7 @@ const router = createHashRouter([
 ]);
 
 const App = () => {
+  RouteChangeTracker();
   return (
     <ModalContextProvider>
       <RouterProvider router={router} />;
